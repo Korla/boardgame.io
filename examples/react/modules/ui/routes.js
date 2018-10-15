@@ -7,12 +7,18 @@
  */
 
 import DragDrop from './components/drag-n-drop';
+import Hex from './components/hex';
 
 const routes = [
   {
     path: '/ui',
     text: 'Drag and Drop',
     component: DragDrop,
+  },
+  {
+    path: '/hex',
+    text: 'Hex',
+    component: Hex,
   },
 ];
 
